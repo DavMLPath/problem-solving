@@ -7,28 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/10RkLYTWYpL2m8PhuXhrvMgsDBIZbXlHH
 """
 
-#Easy Solution
-
-Number=input()
-Measure_of_time=input()
-Mode_of_Transportation=input()
-Adjective=input()
-Adjective2=input()
-Noun=input()
-Color=input()
-Part_of_the_Body=input()
-Verb=input()
-Number2=input()
-Noun2=input()
-Noun3=input()
-Part_of_the_Body_2=input()
-Verb=input()
-Adjective3=input()
-Silly_Word=input()
-Noun=input()
-
-
-text.format(Number,Measure_of_time, Mode_of_Transportation, Adjective, Adjective2, Noun, Color, Part_of_the_Body, Verb, Number2, Noun2, Noun3, Part_of_the_Body_2, Verb, Adjective3, Silly_Word)
 
 
 # Hard, but interesting solution using random method
