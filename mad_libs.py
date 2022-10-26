@@ -75,5 +75,3 @@ def mad_libs(s, b,t):
 
 mad_libs(list, list1,text)
 
-40v
-a
