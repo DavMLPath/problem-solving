@@ -31,6 +31,9 @@ Noun=input()
 text.format(Number,Measure_of_time, Mode_of_Transportation, Adjective, Adjective2, Noun, Color, Part_of_the_Body, Verb, Number2, Noun2, Noun3, Part_of_the_Body_2, Verb, Adjective3, Silly_Word)
 
 
+# Hard, but interesting solution using random method
+# it chooses input fields randomly, first offers user to fill word based on its type, then in the end shows the taxt. 
+
 
 #text processing
 text="It was about () () ago when I arrived at the hospital in a (). The hospital is a/an () place, there are a lot of () () here. There are nurses here who have () (). If someone wants to come into my room I told them that they have to () first. I\’ve decorated my room with () (). Today I talked to a doctor and they were wearing a () on their (). I heard that all doctors () () every day for breakfast. The most () thing about being in the hospital is the () () !"
