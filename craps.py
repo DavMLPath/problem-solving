@@ -31,7 +31,7 @@ def game():
              print('The goal number is ', sum)
              i=1
              
-             while i<=7:
+             while True:
                goal_a=random.randint(1,6)
                goal_b=random.randint(1,6)
                goal_sum=goal_a+goal_b
@@ -44,12 +44,12 @@ def game():
                     print(goal_a)
                     print(goal_b)
                     break
-                 elif i==7:
+                 elif goal_sum==7:
                    print('You Lose')
-                 i+=1
+                   break
                else: break              
              case=3
       else: break
 
+        
 game()
-
