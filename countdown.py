@@ -11,20 +11,20 @@ import datetime
 def countdown():
   while True:
     try: 
-     a=int(input("year: "))
+     a=int(input("Hour: "))
     except ValueError:
      print("please input integer")
     try: 
-     b=int(input("month: "))
+     b=int(input("minutes: "))
     except ValueError:
      print("please input integer")
     try: 
-     c=int(input("day: "))
+     c=int(input("Seconds: "))
     except ValueError:
      print("please input integer")
     break
    
-  x= datetime.datetime(a,b,c)
+  x= datetime.datetime(2022,12,12,a,b,c)
   from datetime import timedelta
   from time import sleep
   while x!= datetime.time(0,0,0):
