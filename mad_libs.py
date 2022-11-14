@@ -9,7 +9,7 @@ Original file is located at
 
 
 
-# Hard, but interesting solution using random method
+# Hard, but interesting solution using random method.
 # it chooses input fields randomly, first offers user to fill word based on its type, then in the end shows the taxt. 
 
 
